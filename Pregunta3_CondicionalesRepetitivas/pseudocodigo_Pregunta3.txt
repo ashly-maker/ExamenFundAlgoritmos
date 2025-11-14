@@ -1,0 +1,20 @@
+Inicio
+  Mientras Verdadero hacer
+    Leer nombre
+    Si nombre = "FIN" entonces
+      Salir
+    FinSi
+    Leer nota1
+    Leer nota2
+    Leer nota3
+    promedio <- (nota1 + nota2 + nota3) / 3
+    Si promedio <= 10 entonces
+      estado <- "Desaprobado"
+    Sino si promedio <= 14 entonces
+      estado <- "Recuperación"
+    Sino si promedio <= 20 entonces
+      estado <- "Aprobado"
+    FinSi
+    Mostrar "Hola ", nombre, ", tu estado es: ", estado
+  FinMientras
+Fin
