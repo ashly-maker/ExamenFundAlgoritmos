@@ -1,0 +1,17 @@
+[Inicio]
+  |
+[Leer N]
+  |
+[Loop i=1..N]
+  |
+[Leer precio y cantidad]
+  |
+[sumar a subtotal]
+  |
+[igv = subtotal * 0.18]
+  |
+[total = subtotal + igv]
+  |
+[Mostrar Subtotal, IGV, Total a pagar]
+  |
+[Fin]
