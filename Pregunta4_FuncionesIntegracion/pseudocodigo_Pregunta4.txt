@@ -1,0 +1,18 @@
+Inicio
+  Repetir
+    opcion <- mostrarMenú()
+    Segun opcion hacer
+      Caso 1:
+        Leer lado
+        Mostrar área y perímetro del cuadrado
+      Caso 2:
+        Leer base y altura
+        Mostrar área y perímetro del rectángulo
+      Caso 3:
+        Leer radio
+        Mostrar área y perímetro del círculo
+      Caso 4:
+        Salir
+    FinSegun
+  Hasta que opcion = 4
+Fin
