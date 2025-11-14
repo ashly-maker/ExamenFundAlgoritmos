@@ -1,0 +1,14 @@
+Inicio
+  Leer N
+  subtotal <- 0
+  Para i desde 1 hasta N hacer
+    Leer precio
+    Leer cantidad
+    subtotal <- subtotal + (precio * cantidad)
+  FinPara
+  igv <- subtotal * 0.18
+  total <- subtotal + igv
+  Mostrar "Subtotal: ", subtotal
+  Mostrar "IGV: ", igv
+  Mostrar "Total a pagar: ", total
+Fin
