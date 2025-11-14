@@ -1,0 +1,17 @@
+[Inicio]
+  |
+[Leer nombre]
+  |
+¿nombre = FIN?
+  |Sí
+ [Fin]
+  |No
+[Leer 3 notas]
+  |
+[Calcular promedio]
+  |
+[Determinar estado]
+  |
+[Mostrar mensaje]
+  |
+[Repetir]
