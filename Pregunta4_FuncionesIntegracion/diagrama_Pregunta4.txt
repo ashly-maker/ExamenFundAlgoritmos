@@ -1,0 +1,11 @@
+[Inicio]
+  |
+[mostrarMenú]
+  |
+[Opción?]
+  |1 Cuadrado → calcular
+  |2 Rectángulo → calcular
+  |3 Círculo → calcular
+  |4 Salir
+  |
+[Repetir]
